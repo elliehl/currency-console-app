@@ -55,35 +55,3 @@ namespace Test123
         }
     }
 }
-
-
-                //    void userValue()
-                //    {
-                //        string currencyPrompt = "";
-                //        foreach (string currency in currencyList)
-                //        {
-                //            if (currency != startingCurrency)
-                //            {
-                //                currencyPrompt += $"{currency.ToUpper()} ";
-                //            }
-                //        }
-                //        do
-                //        {
-                //            Console.WriteLine($"Please choose a target currency {currencyPrompt}");
-                //            targetCurrency = Console.ReadLine().ToLower();
-
-                //        } while (targetCurrency == startingCurrency || !currencyList.Contains(targetCurrency));
-                //        do
-                //        {
-                //            Console.WriteLine("Please input an amount to be converted");
-                //            userCurrencyValue = Convert.ToDouble(Console.ReadLine());
-                //        } while (userCurrencyValue <= 0);
-                //    }
-
-                //    do
-                //    {
-
-
-
-                //    } while (!currencyList.Contains(startingCurrency));
-                //}
